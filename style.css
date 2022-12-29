@@ -39,14 +39,10 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
-/*======================================================*/
-
+/*======================ОБЩИЕ СТИЛИ================================*/
 body{
     background-color: #FAFBFD;
 }
-
-/*==============ОБЩИЕ СТИЛИ===========================*/
-
 .button-blue {
     font-family: Raleway;
     font-weight: 800;
@@ -84,11 +80,12 @@ body{
     letter-spacing: 1px;
     color: #616161;
 }
+/*==============MENU===========================*/
 .menu {
     max-width: 1182px;
     margin: 0 auto;
 }
-.menu__body {
+.menu__container {
     display: flex;
     justify-content: center;
     align-items: center;
