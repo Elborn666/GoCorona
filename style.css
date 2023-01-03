@@ -132,50 +132,12 @@ body{
     background-color: #617faf;*/
     transform: scale(0.8);
 }
-@media(max-width:900px){
-    .menu__button{
-        flex: 0 0 150px;
-    }
-    .menu__body{
-        padding: 20px 15px 30px 15px;
-    }
-}
-@media(max-width:750px){
-    .menu__link{
-        padding: 0px 10px;
-    }
-}
-@media(max-width:650px){
-    .list__items{
-        flex-direction: column;
-        row-gap: 5px;
-    }
-    .menu__link {
-        font-size: 12px;
-    }
-}
-@media(max-width:450px){
-    .button-blue {
-    font-size: 16px;
-    padding: 20px 30px;
-    }
-    .menu__body{
-        flex-direction: column;
-    }
-    .menu__button{
-        padding-top: 10px;
-        flex: 0 0 10px;
-    }
-    .menu__list {
-        padding-top: 10px;
-    }
-}
 /*==============CONTENT===========================*/
 .content__container {
     display: flex;
+    padding: 0px 15px;
 }
-/*
-.content__box::before{
+.content__container::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -185,7 +147,6 @@ body{
     background-color: #EC5863;
     border-radius: 30px 0px 0px 30px;
 }
-*/
 .content__title span {
     color: #4285F4;
 }
@@ -217,43 +178,7 @@ body{
     height: 100%;
     object-fit: cover;
 }
-@media(max-width:950px){
-    .content__box{
-        flex-wrap: wrap;
-    }
-    .content__text{
-        flex: 1 1 100%;
-    }
-    .content__img {
-        flex: 1 1 100%;
-    }
-}
-@media(max-width:800px){
-    .content__title{
-        font-size: 34px;
-    }
-    .content__subtitle{
-        font-size: 16px;    
-    }
-}
-@media(max-width:600px){
-    .content__img {
-        flex: 1 1 auto;
-    }
-}
-@media(max-width:450px){
-    .button-red {
-    font-size: 16px;
-    padding: 20px 30px;
-    }
-}
-@media(max-width:400px){
-    .content__subtitle{
-        font-size: 18px;
-    }
-}
 /*==============PLAYER===========================*/
-
 .player__container {
     display: flex;
     padding: 148px 15px 48px 15px;
@@ -278,22 +203,6 @@ body{
     font-weight: 400;
     line-height: 122%;
     letter-spacing: 1px;
-}
-@media(max-width:600px){
-    .player__box{
-        padding: 30px 15px 30px 15px;
-    }
-}
-@media(max-width:450px){
-    .player__title {
-    font-size: 16px;
-    }
-    .player__subtitl{
-    font-size: 14px 
-    }
-    .player__text {
-        margin: 0px;
-    }
 }
 /*==============GOCORONA===========================*/
 .gocorona__container {
@@ -322,49 +231,6 @@ body{
 }
 .gocorona__button-red:hover{
     transform: scale(0.8); 
-}
-@media(max-width:900px){
-    .gocorona__box {
-        padding: 30px 15px;
-    }
-}
-@media(max-width:880px){
-    .gocorona__box{
-        flex-direction: column-reverse;
-    }
-}
-@media(max-width:800px){
-    .gocorona__title{
-        font-size: 34px;
-    }
-    .gocorona__subtitle{
-        font-size: 16px;
-    }
-}
-@media(max-width:700px){
-    .gocorona__box {
-        padding: 15px 15px;
-    }
-}
-@media(max-width:500px){
-    .gocorona__text{
-        flex: 1 1 100%;
-    }
-    .gocorona__container{
-        flex: 1 1 100%;
-    }
-}
-@media(max-width:450px){
-    .gocorona__button {
-    font-size: 16px;
-    padding: 20px 50px;
-    }
-}
-@media(max-width:400px){
-    .gocorona__subtitle{
-        font-size: 18px;
-        width: 100%;
-    }
 }
 /*==============EXPERTS===========================*/
 .experts__container {
@@ -468,61 +334,6 @@ body{
     top: 0;
     object-fit: cover;
 }
-@media(max-width:990px){
-    .experts__decor{
-        display: none;
-    }
-}
-@media(max-width:900px){
-    .experts__content {
-        flex-direction: column;
-    }
-    .experts__video {
-        padding: 0px 0px 50% 0px;
-    }
-    .experts__box {
-        padding: 50px 15px 0px 15px;
-    }
-    .experts__content {
-        padding: 20px 0px 20px 0px;
-    }
-    .experts__button-red {
-        margin-bottom: 20px;
-    }
-}
-@media(max-width:800px){
-    .experts__title{
-        font-size: 34px;
-    }
-    .experts__subtitle{
-        font-size: 16px;
-    }
-}
-@media(max-width:720px){
-    .experts__list {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .experts__number {
-        padding: 10px 15px 0px 15px;
-    }
-    .experts__word {
-        padding: 5px 15px 10px 15px;
-    }
-}
-@media(max-width:600px){
-    .decor_2 {
-        top: -60px;
-        right: 250px;
-    }
-}
-@media(max-width:400px){
-    .decor_2 {
-        top: -60px;
-        right: 170px;
-    }
-}
 /*==============HELTHCARE===========================*/
 .healthcare__container {
     padding: 80px 15px 75px 15px;
@@ -619,41 +430,6 @@ body{
     top: -30px;
     right: -25px;
 }
-@media(max-width:990px){
-    .healthcare__colums {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .decor_13 {
-       display: none;
-    }
-    .decor_12 {
-        bottom: 440px;
-        left: 240px;
-    }
-    .healthcare__box {
-        padding: 30px 15px 25px 15px;
-    }
-}
-@media(max-width:800px){
-    .healthcare__title {
-        font-size: 34px;
-    }
-    .healthcare__subtitle {
-        font-size: 16px;    
-    }
-}
-@media(max-width:600px){
-    .decor_12 {
-        display: none;
-    }
-    .decor_14 {
-        display: none;
-    }
-    .decor_11 {
-        display: none;
-    }
-}
 /*==============FOOTER===========================*/
 .footer__container {
     padding-bottom: 47px;
@@ -666,9 +442,4 @@ body{
 }
 .footer__link-playmarket {
     padding-right: 57px;
-}
-@media(max-width:990px){
-    .footer__box {
-        padding-bottom: 20px;
-    }
 }
